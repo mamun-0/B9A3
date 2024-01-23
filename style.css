@@ -1,8 +1,17 @@
 body {
   font-family: "Manrope", sans-serif;
 }
-.place-me{
-    right: 5%;
-    bottom: 5%;
-    background-color: #131318;
+.place-me {
+  right: 5%;
+  bottom: 5%;
+  background-color: #131318;
+}
+.left {
+  background: rgba(19, 19, 24, 0.5);
+}
+.left img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
