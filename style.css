@@ -2,8 +2,8 @@ body {
   font-family: "Manrope", sans-serif;
 }
 .place-me {
-  right: 5%;
-  bottom: 5%;
+  /* right: 5%;
+  bottom: 5%; */
   background-color: #131318;
 }
 .left {
@@ -25,7 +25,14 @@ body {
   .hamberger_icon {
     display: inline-block !important;
   }
-  .hamberger_icon:hover{
+  .hamberger_icon:hover {
     cursor: pointer;
+  }
+  .place-me {
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
   }
 }
