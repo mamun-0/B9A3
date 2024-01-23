@@ -2,8 +2,6 @@ body {
   font-family: "Manrope", sans-serif;
 }
 .place-me {
-  /* right: 5%;
-  bottom: 5%; */
   background-color: #131318;
 }
 .left {
@@ -29,10 +27,16 @@ body {
     cursor: pointer;
   }
   .place-me {
-    text-align: center;
-    font-size: 1rem;
-    width: 100%;
-    left: 0%;
-    bottom: 0%;
+    text-align: center !important;
+    font-size: 1rem !important;
+    width: 100% !important;
+    left: 0% !important;
+    bottom: 0% !important;
+  }
+  .nav_links_place {
+    display: block;
+    position: absolute;
+    top: 13%;
+    left: 5%;
   }
 }

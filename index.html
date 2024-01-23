@@ -18,11 +18,12 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="./hamberger.js"></script>
   </head>
   <body>
     <header class="p-4">
       <nav class="flex sm:flex justify-between items-center">
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center relative">
           <svg
             class="d-none hamberger_icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,13 +44,13 @@
             Hockey<span class="text-red-500">’</span>s
           </h2>
         </div>
-        <div class="visibility_none">
-          <ul class="sm:flex text-1xl">
+        <div class="visibility_none nav_links">
+          <ul class="flex sm:flex text-1xl">
             <li><a class="text-red-500" href="">Home</a></li>
-            <li class="sm:ml-4"><a href="">About</a></li>
-            <li class="sm:ml-4"><a href="">Pages</a></li>
-            <li class="sm:ml-4"><a href="">Blog</a></li>
-            <li class="sm:ml-4"><a href="">Contact</a></li>
+            <li class="sm:ml-4 ml-4"><a href="">About</a></li>
+            <li class="sm:ml-4 ml-4"><a href="">Pages</a></li>
+            <li class="sm:ml-4 ml-4"><a href="">Blog</a></li>
+            <li class="sm:ml-4 ml-4"><a href="">Contact</a></li>
           </ul>
         </div>
         <div class="sm:flex justify-center items-center">
